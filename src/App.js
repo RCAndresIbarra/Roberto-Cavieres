@@ -1,15 +1,5 @@
 import React, { useState } from 'react';
 import './App.css';
-const express = require('express');
-const bodyParser = require('body-parser');
-const { Pool } = require('pg');
-const cors = require('cors');
-
-const app = express();
-const port = 5000;
-
-app.use(cors());
-
 
 
 function App() {
@@ -62,6 +52,12 @@ function App() {
             </form>
           </header>
         </div>
+    
+      );
+    };
+    export default App;
+
+
     
       );
     };
