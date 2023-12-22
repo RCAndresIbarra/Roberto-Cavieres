@@ -9,10 +9,10 @@ const port = 5000;
 app.use(cors());
 
 const pool = new Pool({
-  user: 'postgres',
-  host: 'localhost',
-  database: 'Usuarios',
-  password: 'mediApp',
+  user: 'default',
+  host: 'ep-wispy-dust-47821402-pooler.us-east-1.postgres.vercel-storage.com',
+  database: 'verceldb',
+  password: 'JN3H6DCOshmT',
   port: 5432,
 });
 
